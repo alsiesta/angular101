@@ -1,0 +1,6 @@
+<h2>Style Class Attribute application </h2>
+<h3>Using the regular Class Attribute like <span class="text-danger">warning in red</span> in an HTML tag</h3>
+<h3 [class]="successClass">Awesome success!</h3>
+<h3 class="text-special" [class]="successClass">Awesome <span>success!</span></h3>
+<h3 [class.text-danger]="hasError">Awesome success!</h3>
+<h3 [ngClass]="messageClasses">Binding multiple Style Classes with <u>ngClass</u> - which is an Angular directive aka a custom HTML Attribute, which can be used within HTML tags.</h3>
