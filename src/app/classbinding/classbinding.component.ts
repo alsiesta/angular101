@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-styleclasses',
-  templateUrl: './styleclasses.component.html',
+  selector: 'app-classbinding',
+  templateUrl: './classbinding.component.html',
   // styleUrls: ['./styleclasses.component.scss']
   styles: [`
   .text-success{
@@ -16,8 +16,7 @@ import { Component } from '@angular/core';
   }
   `]
 })
-export class StyleclassesComponent {
-
+export class ClassbindingComponent {
   public name = 'Alsiesta';
   public successClass = 'text-success';
   public hasError = false;
